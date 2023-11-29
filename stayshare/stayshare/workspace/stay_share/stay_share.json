@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"2VShe7k90L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Stay Share</span>\",\"col\":12}},{\"id\":\"4M-7Ny45OI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Location\",\"col\":3}},{\"id\":\"I9Mx7l1Efy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New House Type\",\"col\":3}},{\"id\":\"WZBv7YY5U1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Amenity\",\"col\":3}},{\"id\":\"cUhSB55yVU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZIU4qOqb4E\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"b-juy3Nmme\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "content": "[{\"id\":\"2VShe7k90L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Stay Share</span>\",\"col\":12}},{\"id\":\"4M-7Ny45OI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Location\",\"col\":3}},{\"id\":\"I9Mx7l1Efy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New House Type\",\"col\":3}},{\"id\":\"WZBv7YY5U1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Amenity\",\"col\":3}},{\"id\":\"Af6OnwAyCy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Accommodation\",\"col\":3}},{\"id\":\"cUhSB55yVU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZIU4qOqb4E\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"b-juy3Nmme\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
  "creation": "2023-11-29 14:49:11.470444",
  "custom_blocks": [],
  "docstatus": 0,
@@ -69,7 +69,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-11-29 15:00:39.911473",
+ "modified": "2023-11-29 15:03:39.763115",
  "modified_by": "Administrator",
  "module": "StayShare",
  "name": "Stay Share",
@@ -81,6 +81,13 @@
  "roles": [],
  "sequence_id": 37.0,
  "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Accommodation",
+   "link_to": "SS Accommodation",
+   "type": "DocType"
+  },
   {
    "color": "Grey",
    "doc_view": "New",
