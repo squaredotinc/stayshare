@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include stayshare *.css
+recursive-include stayshare *.csv
+recursive-include stayshare *.html
+recursive-include stayshare *.ico
+recursive-include stayshare *.js
+recursive-include stayshare *.json
+recursive-include stayshare *.md
+recursive-include stayshare *.png
+recursive-include stayshare *.py
+recursive-include stayshare *.svg
+recursive-include stayshare *.txt
+recursive-exclude stayshare *.pyc
