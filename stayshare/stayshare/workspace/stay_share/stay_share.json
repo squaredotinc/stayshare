@@ -1,0 +1,110 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"2VShe7k90L\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Stay Share</span>\",\"col\":12}},{\"id\":\"4M-7Ny45OI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Location\",\"col\":3}},{\"id\":\"I9Mx7l1Efy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New House Type\",\"col\":3}},{\"id\":\"WZBv7YY5U1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Amenity\",\"col\":3}},{\"id\":\"cUhSB55yVU\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZIU4qOqb4E\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}},{\"id\":\"b-juy3Nmme\",\"type\":\"card\",\"data\":{\"card_name\":\"Settings\",\"col\":4}}]",
+ "creation": "2023-11-29 14:49:11.470444",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Stay Share",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Users",
+   "link_count": 0,
+   "link_to": "SS User",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Accommodations",
+   "link_count": 0,
+   "link_to": "SS Accommodation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "General Items",
+   "link_count": 0,
+   "link_to": "SS Item",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Settings",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configs",
+   "link_count": 0,
+   "link_to": "SS Configs",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-29 15:00:39.911473",
+ "modified_by": "Administrator",
+ "module": "StayShare",
+ "name": "Stay Share",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Location",
+   "link_to": "SS Item",
+   "stats_filter": "{\"type\":[\"=\",\"location\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New House Type",
+   "link_to": "SS Item",
+   "stats_filter": "{\"type\":[\"=\",\"house\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Amenity",
+   "link_to": "SS Item",
+   "stats_filter": "{\"type\":[\"=\",\"amenity\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Stay Share"
+}
