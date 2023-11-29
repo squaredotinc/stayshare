@@ -1,0 +1,144 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-29 12:50:20.369468",
+ "default_view": "List",
+ "description": "app global configs",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "theme",
+  "notification",
+  "default_icons_tab",
+  "location_icon",
+  "loc_icon_preview",
+  "house_icon",
+  "house_icon_preview",
+  "column_break_qhobz",
+  "amenity_icon",
+  "amenity_icon_preview",
+  "user_icon",
+  "user_icon_preview",
+  "docs_tab",
+  "abour_ss",
+  "terms_of_use",
+  "contributors_tab",
+  "project_contributors"
+ ],
+ "fields": [
+  {
+   "fieldname": "location_icon",
+   "fieldtype": "Attach Image",
+   "label": "Location Icon"
+  },
+  {
+   "fieldname": "house_icon",
+   "fieldtype": "Attach Image",
+   "label": "House Icon"
+  },
+  {
+   "fieldname": "column_break_qhobz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amenity_icon",
+   "fieldtype": "Attach Image",
+   "label": "Amenity Icon"
+  },
+  {
+   "fieldname": "user_icon",
+   "fieldtype": "Attach Image",
+   "label": "User Icon"
+  },
+  {
+   "fieldname": "loc_icon_preview",
+   "fieldtype": "Image",
+   "label": "Loc Icon Preview",
+   "options": "location_icon"
+  },
+  {
+   "fieldname": "house_icon_preview",
+   "fieldtype": "Image",
+   "label": "House Icon Preview",
+   "options": "house_icon"
+  },
+  {
+   "fieldname": "amenity_icon_preview",
+   "fieldtype": "Image",
+   "label": "Amenity icon preview",
+   "options": "amenity_icon"
+  },
+  {
+   "fieldname": "user_icon_preview",
+   "fieldtype": "Image",
+   "label": "User icon preview",
+   "options": "user_icon"
+  },
+  {
+   "fieldname": "theme",
+   "fieldtype": "Color",
+   "label": "Theme"
+  },
+  {
+   "fieldname": "notification",
+   "fieldtype": "Data",
+   "label": "Notification"
+  },
+  {
+   "fieldname": "default_icons_tab",
+   "fieldtype": "Tab Break",
+   "label": "Default Icons"
+  },
+  {
+   "fieldname": "docs_tab",
+   "fieldtype": "Tab Break",
+   "label": "Docs"
+  },
+  {
+   "fieldname": "abour_ss",
+   "fieldtype": "Markdown Editor",
+   "label": "About Us"
+  },
+  {
+   "fieldname": "terms_of_use",
+   "fieldtype": "Markdown Editor",
+   "label": "Terms of Use"
+  },
+  {
+   "description": "use account usernames only and not full url<br>\ne.g <code>donix_22<code> for Twitter or github</code></code>",
+   "fieldname": "contributors_tab",
+   "fieldtype": "Tab Break",
+   "label": "Contributors"
+  },
+  {
+   "fieldname": "project_contributors",
+   "fieldtype": "Table",
+   "label": "Project Contributors",
+   "options": "SS Contributor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-11-29 13:07:39.194989",
+ "modified_by": "Administrator",
+ "module": "StayShare",
+ "name": "SS Configs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

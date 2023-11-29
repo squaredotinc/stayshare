@@ -64,7 +64,7 @@ app_license = "MIT"
 # ------------
 
 # before_install = "stayshare.install.before_install"
-# after_install = "stayshare.install.after_install"
+after_install = "stayshare.install.after_install"
 
 # Uninstallation
 # ------------

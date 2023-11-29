@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "creation": "2023-11-29 13:19:39.831247",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "type",
+  "taken",
+  "column_break_tagev",
+  "iam",
+  "rent",
+  "bill_inclusive",
+  "about_section",
+  "about",
+  "section_break_smvz5",
+  "amenities",
+  "peers_section",
+  "peers",
+  "media_section",
+  "images"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Location",
+   "options": "SS Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "SS Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "iam",
+   "fieldtype": "Link",
+   "label": "IAM",
+   "options": "SS Item"
+  },
+  {
+   "fieldname": "rent",
+   "fieldtype": "Float",
+   "label": "Rent",
+   "non_negative": 1,
+   "precision": "0"
+  },
+  {
+   "default": "0",
+   "fieldname": "bill_inclusive",
+   "fieldtype": "Check",
+   "label": "Bills Included?"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "peers_section",
+   "fieldtype": "Section Break",
+   "label": "Peers"
+  },
+  {
+   "fieldname": "peers",
+   "fieldtype": "Table",
+   "options": "SS Peer",
+   "search_index": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "media_section",
+   "fieldtype": "Section Break",
+   "label": "Media"
+  },
+  {
+   "fieldname": "images",
+   "fieldtype": "Table",
+   "options": "SS Media"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_smvz5",
+   "fieldtype": "Section Break",
+   "label": "Amenities"
+  },
+  {
+   "fieldname": "amenities",
+   "fieldtype": "Table",
+   "options": "SS Preference",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_tagev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "about_section",
+   "fieldtype": "Section Break",
+   "label": "About"
+  },
+  {
+   "fieldname": "about",
+   "fieldtype": "Markdown Editor"
+  },
+  {
+   "default": "0",
+   "fieldname": "taken",
+   "fieldtype": "Check",
+   "label": "Taken?"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "max_attachments": 6,
+ "modified": "2023-11-29 14:48:22.538032",
+ "modified_by": "Administrator",
+ "module": "StayShare",
+ "name": "SS Accommodation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:email",
+ "creation": "2023-11-29 13:01:55.996147",
+ "description": "contributor user names",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "username",
+  "email",
+  "linkedin",
+  "column_break_3kscy",
+  "github",
+  "twitter",
+  "website",
+  "bio_section",
+  "bio"
+ ],
+ "fields": [
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Username",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "linkedin",
+   "fieldtype": "Data",
+   "label": "LinkedIn"
+  },
+  {
+   "fieldname": "github",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "GitHub"
+  },
+  {
+   "fieldname": "twitter",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Twitter"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "bio",
+   "fieldtype": "Markdown Editor"
+  },
+  {
+   "fieldname": "column_break_3kscy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "bio_section",
+   "fieldtype": "Section Break",
+   "label": "Bio"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-29 13:04:25.407670",
+ "modified_by": "Administrator",
+ "module": "StayShare",
+ "name": "SS Contributor",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

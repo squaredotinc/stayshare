@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:mobile",
+ "creation": "2023-11-29 11:29:17.128681",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "user_id",
+  "username",
+  "column_break_rjd0g",
+  "mobile",
+  "verified",
+  "preferences_section",
+  "pref_amenities",
+  "pref_locations",
+  "pref_house_types"
+ ],
+ "fields": [
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Link",
+   "label": "User ID",
+   "options": "User",
+   "unique": 1
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "verified",
+   "fieldtype": "Check",
+   "label": "Verified"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "preferences_section",
+   "fieldtype": "Section Break",
+   "label": "Preferences"
+  },
+  {
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Username"
+  },
+  {
+   "fieldname": "column_break_rjd0g",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pref_amenities",
+   "fieldtype": "Table",
+   "label": "Amenities",
+   "options": "SS Preference"
+  },
+  {
+   "fieldname": "pref_locations",
+   "fieldtype": "Table",
+   "label": "Locations",
+   "options": "SS Preference"
+  },
+  {
+   "fieldname": "pref_house_types",
+   "fieldtype": "Table",
+   "label": "Accommodation Types",
+   "options": "SS Preference"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-29 11:55:07.538878",
+ "modified_by": "Administrator",
+ "module": "StayShare",
+ "name": "SS User",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
