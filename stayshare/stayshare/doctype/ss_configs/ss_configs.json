@@ -1,6 +1,5 @@
 {
  "actions": [],
- "allow_rename": 1,
  "creation": "2023-11-29 12:50:20.369468",
  "default_view": "List",
  "description": "app global configs",
@@ -10,6 +9,10 @@
  "field_order": [
   "theme",
   "notification",
+  "reporting_section",
+  "count_threshold",
+  "column_break_2hchz",
+  "account_disable_duration",
   "default_icons_tab",
   "location_icon",
   "loc_icon_preview",
@@ -116,12 +119,36 @@
    "fieldtype": "Table",
    "label": "Project Contributors",
    "options": "SS Contributor"
+  },
+  {
+   "fieldname": "reporting_section",
+   "fieldtype": "Section Break",
+   "label": "Reporting"
+  },
+  {
+   "default": "3",
+   "fieldname": "count_threshold",
+   "fieldtype": "Int",
+   "label": "Count Threshold",
+   "non_negative": 1
+  },
+  {
+   "default": "4",
+   "description": "in weeks",
+   "fieldname": "account_disable_duration",
+   "fieldtype": "Int",
+   "label": "Account Disable Duration",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_2hchz",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2023-11-29 13:07:39.194989",
+ "modified": "2023-12-03 20:41:34.413475",
  "modified_by": "Administrator",
  "module": "StayShare",
  "name": "SS Configs",

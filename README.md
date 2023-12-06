@@ -3,7 +3,7 @@
 A peer to peer accommodation finder
 
 ## Setup
-SS backend is created with Frappe v14 - a batteries-included python framework. To install SS, if you have a unix system you can follow [instructions detailed here](https://frappeframework.com/docs/user/en/installation)
+SS backend is created with Frappe v14 - an all batteries-included python framework. To install SS, if you have a unix system you can follow [instructions detailed here](https://frappeframework.com/docs/user/en/installation)
 
 Pull dev branch from github
 

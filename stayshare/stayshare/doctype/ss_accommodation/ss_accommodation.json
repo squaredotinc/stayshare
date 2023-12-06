@@ -8,11 +8,19 @@
  "field_order": [
   "location",
   "type",
-  "taken",
   "column_break_tagev",
   "iam",
   "rent",
-  "bill_inclusive",
+  "checks_section",
+  "shared_check",
+  "column_break_jdsvf",
+  "taken_check",
+  "column_break_3b2zp",
+  "bills_check",
+  "column_break_bvapu",
+  "deposit_check",
+  "column_break_bubz6",
+  "reported",
   "about_section",
   "about",
   "section_break_smvz5",
@@ -20,7 +28,9 @@
   "peers_section",
   "peers",
   "media_section",
-  "images"
+  "images",
+  "reports_section",
+  "reports"
  ],
  "fields": [
   {
@@ -47,16 +57,10 @@
   },
   {
    "fieldname": "rent",
-   "fieldtype": "Float",
+   "fieldtype": "Currency",
    "label": "Rent",
    "non_negative": 1,
    "precision": "0"
-  },
-  {
-   "default": "0",
-   "fieldname": "bill_inclusive",
-   "fieldtype": "Check",
-   "label": "Bills Included?"
   },
   {
    "collapsible": 1,
@@ -107,16 +111,73 @@
    "fieldtype": "Markdown Editor"
   },
   {
+   "fieldname": "checks_section",
+   "fieldtype": "Section Break",
+   "label": "Checks"
+  },
+  {
+   "fieldname": "column_break_jdsvf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_3b2zp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "reports_section",
+   "fieldtype": "Section Break",
+   "label": "Reports"
+  },
+  {
+   "fieldname": "reports",
+   "fieldtype": "Table",
+   "options": "SS Flag"
+  },
+  {
    "default": "0",
-   "fieldname": "taken",
+   "fieldname": "shared_check",
+   "fieldtype": "Check",
+   "label": "Shared?"
+  },
+  {
+   "default": "0",
+   "fieldname": "taken_check",
    "fieldtype": "Check",
    "label": "Taken?"
+  },
+  {
+   "default": "0",
+   "fieldname": "bills_check",
+   "fieldtype": "Check",
+   "label": "Bills Included With Rent?"
+  },
+  {
+   "fieldname": "column_break_bvapu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "deposit_check",
+   "fieldtype": "Check",
+   "label": "Deposit Required?"
+  },
+  {
+   "fieldname": "column_break_bubz6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "reported",
+   "fieldtype": "Check",
+   "label": "Reported",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
  "max_attachments": 6,
- "modified": "2023-11-29 14:48:22.538032",
+ "modified": "2023-12-03 20:49:37.858341",
  "modified_by": "Administrator",
  "module": "StayShare",
  "name": "SS Accommodation",
@@ -135,6 +196,7 @@
    "write": 1
   }
  ],
+ "search_fields": "iam, location, type, rent",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

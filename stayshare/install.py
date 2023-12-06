@@ -13,7 +13,9 @@ def seed_data():
     
     amenities = [
         Datum("ceiling", amenity),
-        Datum("security", amenity),
+        Datum("security", amenity, "gate, durawall, dogs, neighborhood watch, guards.."),
+        Datum("solar", amenity),
+        Datum("water backup", amenity, "borehole, tank"),
         Datum("parking", amenity),
         Datum("family", amenity),
         Datum("singles", amenity),

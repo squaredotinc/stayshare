@@ -1,6 +1,5 @@
 {
  "actions": [],
- "allow_rename": 1,
  "autoname": "field:mobile",
  "creation": "2023-11-29 11:29:17.128681",
  "default_view": "List",
@@ -12,7 +11,11 @@
   "username",
   "column_break_rjd0g",
   "mobile",
-  "verified",
+  "report_section",
+  "reported",
+  "count",
+  "column_break_pnbxz",
+  "last_reported_on",
   "preferences_section",
   "pref_amenities",
   "pref_locations",
@@ -31,12 +34,6 @@
    "fieldtype": "Data",
    "label": "Mobile",
    "unique": 1
-  },
-  {
-   "default": "0",
-   "fieldname": "verified",
-   "fieldtype": "Check",
-   "label": "Verified"
   },
   {
    "collapsible": 1,
@@ -70,11 +67,39 @@
    "fieldtype": "Table",
    "label": "Accommodation Types",
    "options": "SS Preference"
+  },
+  {
+   "description": "if report count exceeds X, user account is then disabled</br>\nif reported, user cannot add any more listing until YY set duration",
+   "fieldname": "report_section",
+   "fieldtype": "Section Break",
+   "label": "Report"
+  },
+  {
+   "default": "0",
+   "fieldname": "reported",
+   "fieldtype": "Check",
+   "label": "Reported?"
+  },
+  {
+   "fieldname": "count",
+   "fieldtype": "Read Only",
+   "label": "Count",
+   "options": "Int"
+  },
+  {
+   "fieldname": "last_reported_on",
+   "fieldtype": "Read Only",
+   "label": "Last Reported On",
+   "options": "Datetime"
+  },
+  {
+   "fieldname": "column_break_pnbxz",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-29 11:55:07.538878",
+ "modified": "2023-12-03 20:41:59.967818",
  "modified_by": "Administrator",
  "module": "StayShare",
  "name": "SS User",
